@@ -24,4 +24,4 @@ time.sleep(1)
 #Turn LEDs off
 GPIO.output(17,GPIO.LOW)
 GPIO.output(27,GPIO.LOW)
-GPIO.cleanup
+GPIO.cleanup()
